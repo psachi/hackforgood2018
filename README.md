@@ -20,22 +20,31 @@ We then realized that if Texas Ramp Project had this need, other nonprofit organ
 
 Our MVP was to aggregate student organization data into one easy-to-access page so nonprofits could easily contact them. By using the Selenium package in Python, we worked on webscraping the names and contact information of all student organizations at UT Austin through the [Hornslink](https://utexas.campuslabs.com/engage/) database.
 
+##SourceCode
+```code
 
-```markdown
-Syntax highlighted code block
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+driver = webdriver.Chrome()
+baseurl = "https://utexas.campuslabs.com/engage/organizations"
+driver.get(baseurl)
+elems = driver.find_elements_by_xpath("//*[@href]")
+for elem in elems:
 
-**Bold** and _Italic_ and `Code` text
+   if "https://utexas.campuslabs.com/engage/organization" in elem.get_attribute("href"):
+      print()
+      driver2 = webdriver.Chrome()
+      driver2.get(elem.get_attribute("href"))
 
-[Link](url) and ![Image](src)
+      name = driver2.find_element_by_tag_name('h1')
+      name_content = name.get_attribute('text')
+      print (name_content)
+      driver2.quit()
+
+driver.quit()
+
 ```
 
