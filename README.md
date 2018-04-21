@@ -4,7 +4,16 @@ Our purpose is to create a space where organizations can come together and provi
 
 ## The Issue
 ### Non-profits are in need of human capital and student organizations can't easily find volunteering opportunities
-This platform acts as a marketplace between student organizations and community services. Volunteer organizations can directly advertise their needs so student organizations can best deploy their resources.
+
+Student organizations have to go through many layers of effort to find relevant ways to significantly impact their communities. Because of this friction, student groups prefer to volunteer with existing partnerships instead of looking for new ones, creating positive feedback loops. This leaves other nonprofits in greater need.
+
+## Our Solution
+### Create a dynamic service marketplace where student organizations and nonprofit organizations can connect
+
+This platform acts as a marketplace between student organizations and community services. Volunteer organizations can directly advertise their needs so student organizations can most efficiently deploy their resources. This allows student groups to help the nonprofits that have the most unmet need.
+
+Ideas and Progress:
+First step: Our goal for today was to aggregate student organization data into one easy-to-access page to facilitate communication between organizations in need. Using a Selenium package in Python, we webscraped the name and contact information of all student organizations at UT into one table, providing a direct method of contact for community organizations. 
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
@@ -30,12 +39,3 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/psachi/hackforgood2018/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
