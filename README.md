@@ -12,14 +12,14 @@ Student organizations have to go through many layers of effort to find relevant 
 
 This platform acts as a marketplace between student organizations and community services. Volunteer organizations can directly advertise their needs so student organizations can most efficiently deploy their resources. This allows student groups to help the nonprofits that have the most unmet need.
 
-Ideas and Progress:
-First step: Our goal for today was to aggregate student organization data into one easy-to-access page to facilitate communication between organizations in need. Using a Selenium package in Python, we webscraped the name and contact information of all student organizations at UT into one table, providing a direct method of contact for community organizations. 
+## Our Progress
+### Finding a Need, Initial Concept, and Overcoming Technical Challenges
+With so many potential ways to help, how could our team best help the community as novices in technology? After talking with the Texas Ramp Project, we discovered that there was a large unmet need for the mobility-impaired community in Travis County. This backlog could easily be solved if more student organizations knew about the Texas Ramp Project. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+We then realized that if Texas Ramp Project had this need, other nonprofit organizations likely do too. By creating a social marketplace where nonprofits could post their service needs for student organizations to fill, the needs of these underserved communities could be met more efficiently.
 
-### Markdown
+Our MVP was to aggregate student organization data into one easy-to-access page so nonprofits could easily contact them. By using the Selenium package in Python, we worked on webscraping the names and contact information of all student organizations at UT Austin through the [Hornslink](https://utexas.campuslabs.com/engage/) database.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
 Syntax highlighted code block
