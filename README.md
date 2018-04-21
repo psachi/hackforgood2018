@@ -20,6 +20,9 @@ We then realized that if Texas Ramp Project had this need, other nonprofit organ
 
 Our MVP was to aggregate student organization data into one easy-to-access page so nonprofits could easily contact them. By using the Selenium package in Python, we worked on webscraping the names and contact information of all student organizations at UT Austin through the [Hornslink](https://utexas.campuslabs.com/engage/) database.
 
+## The Future
+### Curated service opportunites that match need and passion
+After student groups and nonprofit groups fill out their respective profiles, they can search for one another on the bases of urgency of need, type of service, and cause. Our system could also give periodic recommendations to parties that would be suited for each other.
 
 ## SourceCode
 ```code
