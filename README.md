@@ -13,7 +13,7 @@ Student organizations have to go through many layers of effort to find relevant 
 This platform acts as a marketplace between student organizations and community services. Volunteer organizations can directly advertise their specific needs so student organizations can most efficiently deploy their resources. This allows student groups to help the nonprofits that have the most unmet need. Student organizations can also post on what causes they are most passionate about, allowing compatible nonprofits to find passionate support.
 
 ## Our Progress
-### Finding a Need, Initial Concept, and Overcoming Technical Challenges
+### Finding a need, initial concept, and overcoming technical challenges
 With so many potential ways to help, how could our team best help the community as novices in technology? After talking with the Texas Ramp Project, we discovered that there was a large unmet need for the mobility-impaired community in Travis County. This backlog could easily be solved if more student organizations knew about the Texas Ramp Project. 
 
 We then realized that if Texas Ramp Project had this need, other nonprofit organizations likely do too. By creating a social marketplace where nonprofits could post their service needs for student organizations to fill, the needs of these underserved communities could be met more efficiently. Moreover, student organizations interested in certain causes or types of volunteering efforts (e.g. fundraising, construction, etc) could be contacted easily by the nonprofits that are relevant to those causes.
@@ -22,6 +22,8 @@ Our MVP was to aggregate student organization data into one easy-to-access page 
 
 ## The Future
 ### Curated service opportunites that match need and passion
+We plan on using the Google Places API to automatically fill profile information for churches, Rotary clubs, and other service organizations.
+
 After student groups and nonprofit groups fill out their respective profiles, they can search for one another on the bases of urgency of need, type of service, and cause. Our system could also give periodic recommendations to parties that would be suited for each other.
 
 ## SourceCode
