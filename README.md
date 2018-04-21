@@ -1,6 +1,10 @@
-## Welcome to GitHub Pages
+# We are ServUT
 
-You can use the [editor on GitHub](https://github.com/psachi/hackforgood2018/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Our purpose is to create a space where organizations can come together and provide solutions to uncommon needs.
+
+## The Issue
+### Non-profits are in need of human capital and student organizations can't easily find volunteering opportunities
+This platform acts as a marketplace between student organizations and community services. Volunteer organizations can directly advertise their needs so student organizations can best deploy their resources.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
